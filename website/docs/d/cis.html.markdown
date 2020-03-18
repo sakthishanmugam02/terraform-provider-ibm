@@ -32,3 +32,4 @@ The following attributes are exported:
 * `plan` - The service plan for this Internet Services' instance
 * `location` - The location for this Internet Services' instance
 * `status` - Status of the CIS instance.
+* `guid` - Unique identifer of resource instance.

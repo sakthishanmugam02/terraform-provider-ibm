@@ -116,6 +116,7 @@ The following attributes are exported:
   `connectionstrings.1.name = admin`
   `connectionstrings.1.string = postgres://admin:$PASSWORD@79226bd4-4076-4873-b5ce-b1dba48ff8c4.b8a5e798d2d04f2e860e54e5d042c915.databases.appdomain.cloud:32554/ibmclouddb?sslmode=verify-full`
 Individual string parameters can be retrieved using TF vars and outputs  `connectionstrings.x.hosts.x.port` and `connectionstrings.x.hosts.x.host` 
+* `guid` - Unique identifer of resource instance.
 
 
 ## Import
