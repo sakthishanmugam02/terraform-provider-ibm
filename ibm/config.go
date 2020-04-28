@@ -868,7 +868,7 @@ func refreshToken(sess *bxsession.Session) error {
 func envFallBack(envs []string, defaultValue string) string {
 	for _, k := range envs {
 		if v := os.Getenv(k); v != "" {
-			return v
+			return "https://" + v + "/v1"
 		}
 	}
 	return defaultValue
