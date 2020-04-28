@@ -368,7 +368,8 @@ func Provider() terraform.ResourceProvider {
 			"ibm_dns_resource_record":   resourceIBMPrivateDNSResourceRecord(),
 
 			//Custom Routes related resources
-			"ibm_is_route_table": resourceIBMISRouteTable(),
+			"ibm_is_route_table":   resourceIBMISRouteTable(),
+			"ibm_is_custom_routes": resourceIBMCustomRoutes(),
 		},
 
 		ConfigureFunc: providerConfigure,
